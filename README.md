@@ -28,3 +28,9 @@ echo do_shortcode('[gallery include="'.$bilder.'" columns="3"]');
 ```									
 
 You can change the value of columns in the line of the "do_shortcode" statemant (line 26)
+
+More infomation:
+
+https://developer.wordpress.org/reference/functions/do_shortcode/
+
+https://codex.wordpress.org/Class_Reference/WP_Query
