@@ -27,7 +27,7 @@ echo do_shortcode('[gallery include="'.$bilder.'" columns="3"]');
 ?>
 ```									
 
-You can change the value of columns in the line of the "do_shortcode" statemant (line 26)
+You can change the value of columns in the line of the "do_shortcode" statement (line 26)
 
 More infomation:
 
