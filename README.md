@@ -4,6 +4,7 @@ Here's a short tutorial how you can display all uploaded images in one WordPress
 
 Simply put the uploaded code in each file you want like page.php in your theme-file.
 
+```
 <?php $args = array(
     'post_type' => 'attachment',
     'post_status' => 'published',
@@ -23,5 +24,5 @@ if ($attachments) {
     }   
 } 
 echo do_shortcode('[gallery include="'.$bilder.'" columns="3"]');
-?>
+?>```
 									
