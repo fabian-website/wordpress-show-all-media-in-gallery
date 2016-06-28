@@ -1,4 +1,4 @@
-# wordpress-show-all-media-in-gallery
+# WordPress: Show all uploaded images in one gallery
 
 Here's a short tutorial how you can display all uploaded images in one WordPress gallery.
 
