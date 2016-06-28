@@ -14,20 +14,18 @@ Simply put this code in each file you want to show the gallery like page.php in 
 
 $attachments = get_posts($args);
 
-$post_count = count ($attachments);
-
 $bilder = "";
 if ($attachments) {
     foreach ($attachments as $attachment) {
-        $test = $attachment->ID;
-        $bilder = $bilder . $test . ", ";
+        $id = $attachment->ID;
+        $bilder = $bilder . $id . ", ";
     }   
 } 
 echo do_shortcode('[gallery include="'.$bilder.'" columns="3"]');
 ?>
 ```									
 
-You can change the value of columns in the line of the "do_shortcode" statement (line 26)
+You can change the value of columns in the line of the "do_shortcode" statement (line 24)
 
 More infomation:
 
